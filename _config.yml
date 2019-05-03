@@ -1,0 +1,76 @@
+# Site settings
+title: 
+email: unna@unna.eng.br
+baseurl: https://engleite.github.io/
+description: "Nosso objetivo é atuar no setor da construção civil, proporcionando aos clientes soluções sustentáveis, viabilizando prazos, custos e qualidade. Valorizamos o respeito nos relacionamento profissionais, o desenvolvimento científico e a qualidade que deve ser oferecida aos nossos clientes. "
+
+
+
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#fff'  
+  font-color: '#000'
+  font-btn-color: '#fff'
+  btn-bkg: '#059c00'        # cor do botão
+  # links: '#000'
+  about-bkg: '#fff'         # cor da seção about
+  footer-bkg: '#000'        # cor da seção footer
+  download-bkg: '#000'      # cor da seção download
+
+font-nav-color: '#059c00'    # cor da fonte da navegação
+font-intro-color: '#000'     # cor da fonte da introdução
+
+#navbar:
+  #min-width: 70px; 
+  
+
+# Font Family
+fontFamily:
+  font-family: 'Arial'
+
+# Content settings
+content-set:
+  download:
+    title: Sobre nós
+    body-set: "Nosso time é composto por profissionais com competências variadas. Somos especialistas em gestão de obras, execução de orçamentos, planejamento de empreendimentos e elaboração e gestão de projetos. Conheça nosssa equipe!" 
+  contact:
+    title: Contato
+    body-set: "Entre em contato conosco através de nossas redes sociais. Estaremos prontos para atendê-lo da melhor maneira!"
+
+
+# Footer settings
+
+footer: Unna Engenharia e Construção
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/unnaengenharia/
+  - title: linkedin
+    url: https://www.linkedin.com/company/unnaengenharia/?viewAsMember=true
+  - title: instagram
+    url: https://www.instagram.com/unnaengenharia/
+  - title: whatsapp
+    url: https://web.whatsapp.com/send?l=pt&phone=55041984080455
+#  - title: twitter
+#    url: https://twitter.com/SBootstrap
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
+#  - title: github
+#    url: https://github.com/IronSummitMedia/startbootstrap
+
+team:
+  - title: linkedin
+    url: https://www.linkedin.com/in/murilo-albunio-82bb7894/
+    name: Murilo Albunio
+  - title: linkedin
+    url: https://www.linkedin.com/in/emersonbatistaleite/
+    name: Emerson Leite
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
