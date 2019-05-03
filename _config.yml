@@ -4,7 +4,8 @@ email: unna@unna.eng.br
 baseurl: https://engleite.github.io/unna
 description: "Nosso objetivo é atuar no setor da construção civil, proporcionando aos clientes soluções sustentáveis, viabilizando prazos, custos e qualidade. Valorizamos o respeito nos relacionamento profissionais, o desenvolvimento científico e a qualidade que deve ser oferecida aos nossos clientes. "
 
-
+background:
+  intro-bkg: "{{ site.baseurl }}/img/building-wallpapers-28464-2708651.jpg"
 
 
 # Color settings (hex-codes without the leading hash-tag)

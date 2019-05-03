@@ -155,7 +155,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/building-wallpapers-28464-2708651.jpg) no-repeat bottom -100px center scroll;
+    background: /*url(/img/building-wallpapers-28464-2708651.jpg)*/ {{ site.background.intro-bkg }} no-repeat bottom -100px center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
