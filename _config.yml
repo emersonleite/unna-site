@@ -38,6 +38,9 @@ content-set:
   contact:
     title: Contato
     body-set: "Entre em contato conosco através de nossas redes sociais. Estaremos prontos para atendê-lo da melhor maneira!"
+  map:
+    title: Onde estamos
+    body-set:
 
 
 # Footer settings
