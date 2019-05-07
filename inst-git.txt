@@ -1,0 +1,10 @@
+git add .
+git commit -m "mensagem"
+git push
+
+git checkout <nome do branch>           mudar de branch
+git checkout -b <branch name>           criar um branch
+
+git checkout <nome do branch>           fundindo branch master com <nome do branch>
+git merge master
+git hist --all
