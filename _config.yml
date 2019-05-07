@@ -1,7 +1,8 @@
 # Site settings
 title: Unna Engenharia e Construção
 email: unna@unna.eng.br
-baseurl: #https://engleite.github.io/unna
+baseurl: ""
+url: https://www.unna.eng.br
 description: "Nosso objetivo é atuar no setor da construção civil, proporcionando aos clientes soluções sustentáveis, viabilizando prazos, custos e qualidade. Valorizamos o respeito nos relacionamentos profissionais, o desenvolvimento científico e a qualidade que deve ser oferecida aos nossos clientes. "
 lang: pt-br
 author: Emerson Leite
