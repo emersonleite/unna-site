@@ -1,0 +1,8 @@
+MX (Mail Exchanger)
+
+Prioridade		        Host			Aponta para			        TTL
+1			            @			    aspmx.l.google.com		    3600
+5			            @			    alt1.aspmx.l.google.com		3600
+5			            @			    alt2.aspmx.l.google.com		3600
+10			            @			    alt3.aspmx.l.google.com		3600
+10  			        @ 			    alt4.aspmx.l.google.com  	3600  

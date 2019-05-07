@@ -1,8 +1,13 @@
 # Site settings
 title: Unna Engenharia e Construção
 email: unna@unna.eng.br
-baseurl: https://engleite.github.io/unna
-description: "Nosso objetivo é atuar no setor da construção civil, proporcionando aos clientes soluções sustentáveis, viabilizando prazos, custos e qualidade. Valorizamos o respeito nos relacionamento profissionais, o desenvolvimento científico e a qualidade que deve ser oferecida aos nossos clientes. "
+baseurl: #https://engleite.github.io/unna
+description: "Nosso objetivo é atuar no setor da construção civil, proporcionando aos clientes soluções sustentáveis, viabilizando prazos, custos e qualidade. Valorizamos o respeito nos relacionamentos profissionais, o desenvolvimento científico e a qualidade que deve ser oferecida aos nossos clientes. "
+lang: pt-br
+author: Emerson Leite
+
+posts:
+  date_format: "%b %-d, %Y"
 
 background:
   intro-bkg: "/img/building-wallpapers-28464-2708651.jpg"
@@ -73,6 +78,9 @@ team:
   - title: linkedin
     url: https://www.linkedin.com/in/emersonbatistaleite/
     name: Emerson Leite
+
+plugins:
+ - jekyll-admin
 
 
 # Build settings
