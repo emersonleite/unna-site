@@ -4,6 +4,8 @@ git push
 
 git checkout <nome do branch>           mudar de branch
 git checkout -b <branch name>           criar um branch
+git push --set-upstream origin beta     mandando o branch para o repositorio remoto
+
 
 git checkout <nome do branch>           fundindo branch master com <nome do branch>
 git merge master
