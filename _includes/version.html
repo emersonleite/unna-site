@@ -1,0 +1,33 @@
+<section id="posts" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul>
+            {% for version in site.data.version %}
+              <div>  
+                <li>
+                  <h2>Versão {{ version.version }} </h2>
+
+
+
+<!--               <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+              <p class="text-info lead">
+                {{ post.date | date: "%b %-d, %Y" }}
+              </p>
+  
+              <p>
+                {% if post.summary %}
+                  {{ post.summary }}
+                {% else %}
+                  {{ post.excerpt }}
+                {% endif %}
+              </p> -->
+
+                </li>
+              </div>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>

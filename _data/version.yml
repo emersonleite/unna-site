@@ -1,4 +1,10 @@
-version-list:
   - version: 1.0.0
-    date: 08/05/2019
+    date: 2019-05-08
     description: "Versão inicial do site da Unna"
+    lastest: true
+
+  - version: 1.0.1
+    date: 2019-05-08
+    description: "Versão 0.1 da versão inicial do site da Unna"
+    lastest: false
+
