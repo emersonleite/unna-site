@@ -37,16 +37,23 @@ html {
     margin-top: 150px;
 }
 
-.color-green{
-    background-color: #059C00;
+.color-above-posts{
+    background-color: #B20000;    
     width: 100%;
-    margin-top: 90px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    color: white;
 }
 
-.color-white{
-    color:#FFF;
+a {
+    color: #3c763d;
+    text-decoration: none;
 }
 
+.text-info {
+    color: #B20000;
+}
 
 h1,
 h2,
@@ -55,7 +62,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: {{ site.fontFamily.font-family }}; /*Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 700;
     letter-spacing: 1px;
@@ -282,7 +289,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .download-section {         /*seção equipe*/
@@ -308,6 +315,11 @@ a:focus {
         padding-top: 200px;
     }
 
+@media(min-width:767px) {
+    .content-section-posts {
+            padding-top: 30px;
+    }
+
     .download-section {
         padding: 100px 0;
     }
@@ -319,7 +331,7 @@ a:focus {
 }
 
 .btn {
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-family: {{ site.fontFamily.font-family }} /*Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
