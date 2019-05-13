@@ -1,12 +1,14 @@
-<section id="posts" class="py-5">
+<section id="version" class="py-5">
     <div class="container">
       <div class="row">
         <div class="col">
           <ul>
+            {% assign version = "1.0.0" %}
             {% for version in site.data.version %}
               <div>  
-                <li>
-                  <h2> Versão {{ version.version }} </h2>
+                <li class="list-style">
+                  <h3> Versão {{ version.version }} </h3>
+                  <p>{{ version.description }}</p>
                 </li>
               </div>
             {% endfor %}

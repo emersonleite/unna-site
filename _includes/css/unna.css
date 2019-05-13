@@ -21,7 +21,7 @@ footer {
 }
 
 .color-above-posts{
-    background-color: #B20000;    
+    background-color: #059C00;    
     width: 100%;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -31,6 +31,20 @@ footer {
 
 .text-copyright{
     color: #fff;
+    font-size: 18px;
+}
+
+#text-version{
+    color:#FFF;
+    font-size:16px;
+}
+
+#version{
+    width:100%;
+}
+
+.list-style{
+    list-style-type: none;
 }
     
 html {
@@ -42,6 +56,19 @@ html {
     color: {{ site.font-intro-color }};
     padding-top: 100px;
 }
+
+.none-text{
+    text-transform: none;
+}
+
+.map-section{
+    margin-top:150px;
+}
+
+.a-color-post{
+    color: #000;
+}
+
 
 h1,
 h2,
@@ -294,7 +321,7 @@ a:focus {
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 @media(min-width:767px) {
@@ -308,7 +335,7 @@ a:focus {
 
     #map {
         height: 400px;
-        margin-top: 250px;
+        margin-top: 30px;
     }
 }
 
@@ -378,7 +405,7 @@ ul.banner-social-buttons li {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 footer p {

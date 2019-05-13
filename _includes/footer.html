@@ -1,6 +1,14 @@
     <!-- Footer -->
     <footer>
+            {% assign version = "1.0.0" %}
+            {% for version in site.data.version %} 
+                {% if version.lastest == true %}
+                  {% assign version = version.version  %}
+                {% endif %}
+            {% endfor %}           
         <div class="container text-center">
             <p class="text-copyright">Copyright &copy; {{ site.footer }} 20{{ site.time | date: '%y' }}</p>
+            <a href="{{ site.url }}/version_"><p id="text-version"> Versão {{ version }} </p></a>
+            <p id="text-version">By {{ site.author }} </p>
         </div>
     </footer>

@@ -1,12 +1,12 @@
 <section id="posts" class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col">      
           {% for post in site.posts %}
             <div>
-              <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+              <h2 class="none-text"><a href="{{ post.url | prepend: site.baseurl }}" class="a-color-post">{{ post.title }}</a></h2>
               <p class="text-info lead">
-                {{ post.date | date: "%b %-d, %Y" }}
+                  {% include ptdate.html %}
               </p>
   
               <p>

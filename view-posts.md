@@ -1,6 +1,6 @@
 ---
 layout: view-posts
-title: Lista de postagens
+title: Atualizações
 ---
 
 
