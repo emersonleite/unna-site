@@ -20,6 +20,10 @@ footer {
     background-color: {{ site.color.footer-bkg }};
 }
 
+.msgSacre-color{
+    color: white;
+}
+
 .color-above-posts{
     background-color: #059C00;    
     width: 100%;
