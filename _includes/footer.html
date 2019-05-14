@@ -7,8 +7,12 @@
                 {% endif %}
             {% endfor %}           
         <div class="container text-center">
-            <p class="text-copyright">Copyright &copy; {{ site.footer }} 20{{ site.time | date: '%y' }}</p>
+            <p class="text-copyright">Copyright &copy; 20{{ site.time | date: '%y' }} - {{ site.footer }} </p>
+            {% if site.show-version %}
             <a href="{{ site.url }}/version_"><p id="text-version"> Versão {{ version }} </p></a>
-            <p id="text-version">By {{ site.author }} </p>
+            {% endif %}
+            {% if site.show-author %}
+            <p id="text-version">{{ site.author }}</p>
+            {% endif %}
         </div>
     </footer>

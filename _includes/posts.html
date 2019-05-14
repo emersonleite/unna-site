@@ -6,9 +6,8 @@
             <div>
               <h2 class="none-text"><a href="{{ post.url | prepend: site.baseurl }}" class="a-color-post">{{ post.title }}</a></h2>
               <p class="text-info lead">
-                  {% include ptdate.html %}
-              </p>
-  
+                  {% include post-date.html %}
+              </p>  
               <p>
                 {% if post.summary %}
                   {{ post.summary }}
