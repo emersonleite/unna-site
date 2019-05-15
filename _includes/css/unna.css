@@ -38,7 +38,12 @@ footer {
     font-size: 18px;
 }
 
-#text-version{
+.text-version{
+    color:#FFF;
+    font-size:15px;
+}
+
+#text-author{
     color:#FFF;
     font-size:16px;
 }

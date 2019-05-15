@@ -6,14 +6,15 @@
                   {% assign version = version.version  %}
                 {% endif %}
             {% endfor %}           
-        <div class="container text-center">
+        <div id="div-footer" class="container text-center">
             <p class="text-copyright">Copyright &copy; 20{{ site.time | date: '%y' }} - {{ site.footer }} </p>
+            {% include msgSacre.html %}
             {% if site.show-version %}
-            <a href="{{ site.url }}/version_"><p id="text-version"> Versão {{ version }} </p></a>
+            <a id="text-version" href="{{ site.url }}/version_"><p class="text-version"> Versão {{ version }} </p></a>
             {% endif %}
             {% if site.show-author %}
-            <p id="text-version">{{ site.author }}</p>
-            {% endif %}
-            {% include msgSacre.html %}
+            <p id="text-author">{{ site.author }}</p>
+            {% endif %} 
+            <!-- <p id="text-author">{{ site.data.content.Nome }}</p>            -->
         </div>
     </footer>

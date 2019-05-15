@@ -7,7 +7,12 @@ description: >-
   clientes soluções sustentáveis, viabilizando prazos, custos e qualidade.
   Valorizamos o respeito nos relacionamentos profissionais, o desenvolvimento
   científico e a qualidade que deve ser oferecida aos nossos clientes. 
-
+plugins:
+  - jekyll-admin
+  - jekyll-sitemap
+markdown: kramdown
+# permalink: pretty
+permalink: /:title:output_ext
 sacre-message:
   Teste de mensagem.
 lang: pt-br
@@ -62,7 +67,4 @@ team:
   - title: linkedin
     url: 'https://www.linkedin.com/in/emersonbatistaleite/'
     name: Emerson Leite
-plugins:
-  - jekyll-admin
-markdown: kramdown
-permalink: pretty
+
