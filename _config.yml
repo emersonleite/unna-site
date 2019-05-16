@@ -11,14 +11,9 @@ plugins:
   - jekyll-admin
   - jekyll-sitemap
 markdown: kramdown
-# permalink: pretty
 permalink: /:title:output_ext
-sacre-message:
-  Teste de mensagem.
 lang: pt-br
 author: Emerson Leite
-show-author: true
-show-version: true
 posts:
   date_format: '%b %-d, %Y'
 background:
@@ -35,36 +30,6 @@ font-nav-color: '#059c00'
 font-intro-color: '#000'
 fontFamily:
   font-family: Arial
-content-set:
-  download:
-    title: Sobre nós
-    body-set: >-
-      Nosso time é composto por profissionais com competências variadas. Somos
-      especialistas em gestão de obras, execução de orçamentos, planejamento de
-      empreendimentos e elaboração e gestão de projetos. Conheça nosssa equipe!
-  contact:
-    title: Contato
-    body-set: >-
-      Entre em contato conosco através de nossas redes sociais. Estaremos
-      prontos para atendê-lo da melhor maneira!
-  map:
-    title: Onde estamos
-    body-set: null
-footer: Unna Engenharia e Construção
-social:
-  - title: facebook
-    url: 'https://www.facebook.com/unnaengenharia/'
-  - title: linkedin
-    url: 'https://www.linkedin.com/company/unnaengenharia/?viewAsMember=true'
-  - title: instagram
-    url: 'https://www.instagram.com/unnaengenharia/'
-  - title: whatsapp
-    url: 'https://web.whatsapp.com/send?l=pt&phone=55041984080455'
-team:
-  - title: linkedin
-    url: 'https://www.linkedin.com/in/murilo-albunio-82bb7894/'
-    name: Murilo Albunio
-  - title: linkedin
-    url: 'https://www.linkedin.com/in/emersonbatistaleite/'
-    name: Emerson Leite
+
+
 

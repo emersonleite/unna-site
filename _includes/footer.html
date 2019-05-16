@@ -1,20 +1,19 @@
     <!-- Footer -->
     <footer>
-            {% assign version = "1.0.0" %}
+            {% assign version = "0" %}
             {% for version in site.data.version %} 
                 {% if version.lastest == true %}
                   {% assign version = version.version  %}
                 {% endif %}
             {% endfor %}           
         <div id="div-footer" class="container text-center">
-            <p class="text-copyright">Copyright &copy; 20{{ site.time | date: '%y' }} - {{ site.footer }} </p>
+            <p class="text-copyright">Copyright &copy; 20{{ site.time | date: '%y' }} - {{ site.data.content-set.footer.body-set }} </p>
             {% include msgSacre.html %}
-            {% if site.show-version %}
+            {% if site.data.show.author %}
             <a id="text-version" href="{{ site.url }}/version_"><p class="text-version"> Versão {{ version }} </p></a>
             {% endif %}
-            {% if site.show-author %}
+            {% if site.data.show.author %}
             <p id="text-author">{{ site.author }}</p>
             {% endif %} 
-            <!-- <p id="text-author">{{ site.data.content.Nome }}</p>            -->
         </div>
     </footer>

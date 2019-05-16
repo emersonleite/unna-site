@@ -1,0 +1,20 @@
+download:
+  title: Sobre nós
+  body-set: >-
+      Nosso time é composto por profissionais com competências variadas. Somos
+      especialistas em gestão de obras, execução de orçamentos, planejamento de
+      empreendimentos e elaboração e gestão de projetos. Conheça nosssa equipe!
+contact:
+  title: Contato
+  body-set: >-
+      Entre em contato conosco através de nossas redes sociais. Estaremos
+      prontos para atendê-lo da melhor maneira!
+map:
+  title: Onde estamos
+  body-set: null
+
+footer:
+  body-set: Unna Engenharia e Construção
+
+sacre-message:
+  body-set: null

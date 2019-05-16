@@ -3,22 +3,14 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>{{ site.content-set.download.title }}</h2>
-                    <p>{{ site.content-set.download.body-set }}</p>
-                    <!--<h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>-->
-                    <!--<a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>-->
+                    <h2>{{ site.data.content-set.download.title }}</h2>
+                    <p>{{ site.data.content-set.download.body-set }}</p>
                     <ul class="list-inline banner-social-buttons">
-                            <!--{% for network in site.team %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn btn-default {{ network.title }} btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.name }}</span></a>
-                            </li>
-                            {% endfor %}-->
-                            {% for network in site.team %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn btn-default {{ network.title }} btn-lg"><i class="fab fa-{{ network.title }}"></i> <span class="network-name">{{ network.name }}</span></a>
-                            </li>
-                            {% endfor %}
+                        {% for network in site.data.team %}
+                        <li>
+                        <a href="{{ network.url }}" class="btn btn-default {{ network.title }} btn-lg"><i class="fab fa-{{ network.title }}"></i> <span class="network-name">{{ network.name }}</span></a>
+                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>

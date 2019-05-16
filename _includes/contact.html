@@ -2,12 +2,12 @@
     <section id="contato" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>{{ site.content-set.contact.title }}</h2>
-                <p>{{ site.content-set.contact.body-set }}</p>
+                <h2>{{ site.data.content-set.contact.title }}</h2>
+                <p>{{ site.data.content-set.contact.body-set }}</p>
                 <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
-                    {% for network in site.social %}
+                    {% for network in site.data.social %}
                     <li>
                         <a href="{{ network.url }}" class="btn btn-default btn-lg {{ network.title }}"><i class="fab fa-{{ network.title }}"></i> <span class="network-name">{{ network.title }}</span></a>
                     </li>
