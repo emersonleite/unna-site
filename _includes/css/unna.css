@@ -38,6 +38,10 @@ footer {
     font-size: 18px;
 }
 
+.service-description{
+    text-align: justify;
+}
+
 .text-version{
     color:#FFF;
     font-size:15px;

@@ -31,9 +31,11 @@
                     <li>
                         <a class="page-scroll" href="{{ site.baseurl }}/#map">Onde estamos</a>
                     </li>
+                    {% if site.data.show.posts %}
                     <li>
                         <a class="page-scroll" href="{{ site.baseurl }}/view-posts">Atualizações</a>
                     </li>
+                    {% endif %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
