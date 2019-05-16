@@ -2,15 +2,7 @@ title: Unna Engenharia e Construção
 email: unna@unna.eng.br
 url: 'https://unna.eng.br'
 baseurl: ''
-description: >-
-  h2: Para o cliente final e arquitetos
-  set: Administração e gerenciamento de obras residenciais e comerciais.
-       Planejamento de sua obra desde a fundação até a entrega final.
-
-  h2: Para construtoras
-  set:  Gestão de equipes multidisciplinares para a sua obra. Não se preocupe com orçamentos e contratação de serviços.
-        Fornecimento de equipe para execução de serviços civis, de elétrica, hidráulica e demais necessários para seu empreendimento.
-        Diferencial de outras empresas, pois nossa equipe técnica, composta por engenheiros, acompanha cada etapa do serviço, evitando falhas comuns em outras empresas que fornecem mão de obra terceirizada.
+description: Obras em Curitiba  
 plugins:
   - jekyll-admin
   - jekyll-sitemap
