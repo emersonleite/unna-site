@@ -1,0 +1,13 @@
+<div id="post" class="container pt-3">
+    <div class="row">
+      <div class="col">
+        <p class="text-date">Postado em 
+          {% include page-date.html %}
+        </p>
+        <h1>{{ post.title }}</h1>
+        <article>
+          {{ content }}
+        </article>
+      </div>
+    </div>
+  </div>

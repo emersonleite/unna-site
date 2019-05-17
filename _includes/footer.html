@@ -1,6 +1,19 @@
     <!-- Footer -->
     <footer>
-        <div class="container text-center">
-            <p class="text-copyright">Copyright &copy; {{ site.footer }} 20{{ site.time | date: '%y' }}</p>
+            {% assign version = "0" %}
+            {% for version in site.data.version %} 
+                {% if version.lastest == true %}
+                  {% assign version = version.version  %}
+                {% endif %}
+            {% endfor %}           
+        <div id="div-footer" class="container text-center">
+            <p class="text-copyright">Copyright &copy; 20{{ site.time | date: '%y' }} - <a href="{{ site.url }}"> {{ site.data.content-set.footer.body-set }} </p></a>
+            {% include msgSacre.html %}
+            {% if site.data.show.author %}
+            <a id="text-version" href="{{ site.url }}/version_"><p class="text-version"> Versão {{ version }} </p></a>
+            {% endif %}
+            {% if site.data.show.author %}
+            <p id="text-author"> <span id="text-developed">developed by</span><a href="https://www.linkedin.com/in/emersonbatistaleite/"> {{ site.author }}</p></a>
+            {% endif %} 
         </div>
     </footer>

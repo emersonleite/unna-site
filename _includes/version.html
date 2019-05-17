@@ -1,0 +1,24 @@
+<section id="version" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <ul>
+            {% assign version = "1.0.0" %}
+            {% for version in site.data.version %}
+              <div>  
+                <li class="list-style">
+                  <h3> Versão {{ version.version }} </h3>
+                  <p class="text-date"> Atualizado em 
+                    {% include version-date.html %}
+                    <!-- {{ version.date | date: "%a, %b %d, %y" }} -->
+                  </p>
+                  <p>{{ version.description }}</p>
+                </li>
+              </div>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+{% include erase.html %}
+</section>

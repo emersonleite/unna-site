@@ -1,15 +1,11 @@
-{%if site.data.show.posts %}
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
     {% include head.html %}
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     {% include nav.html %}
     {% include above-post.html %}
-    {% include post.html %}
-    {% include erase.html %}
-    {% include comments.html %}
+    {% include page404.html %}
     {% include footer.html %}
     {% include js.html %}
     </body>
 </html>
-{% endif %}
