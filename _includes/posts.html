@@ -5,19 +5,20 @@
           {% for post in site.posts %}
             <div>
               <h2 class="none-text"><a href="{{ post.url | prepend: site.baseurl }}" class="a-color-post">{{ post.title }}</a></h2>
-              <p class="text-info lead">
+              <p class="text-date"> Postado em 
                   {% include post-date.html %}
               </p>  
               <p>
-                {% if post.summary %}
+<!--                 {% if post.summary %}
                   {{ post.summary }}
                 {% else %}
                   {{ post.excerpt }}
-                {% endif %}
+                {% endif %} -->
               </p>
             </div>
           {% endfor %}
         </div>
       </div>
     </div>
-  </section>
+    {% include erase.html %}
+</section>

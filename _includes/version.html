@@ -8,7 +8,7 @@
               <div>  
                 <li class="list-style">
                   <h3> Versão {{ version.version }} </h3>
-                  <p class="text-info lead">
+                  <p class="text-date"> Atualizado em 
                     {% include version-date.html %}
                     <!-- {{ version.date | date: "%a, %b %d, %y" }} -->
                   </p>
@@ -20,4 +20,5 @@
         </div>
       </div>
     </div>
-  </section>
+{% include erase.html %}
+</section>
