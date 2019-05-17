@@ -9,10 +9,15 @@ var elem2 = document.getElementById("text-version");
 
 var day = dateAtual.getDate();
 var weekday = dateAtual.getDay();
+var hour = dateAtual.getHours();
 
-if (weekday == 5 | weekday == 2 ){
+console.log(hour);
+
+if (weekday == 4 && hour == 18 ){
     div1.removeChild(elem1);
     div1.removeChild(elem2);
     elem.innerHTML = text;
 }
+
+{{ site.data }}
 

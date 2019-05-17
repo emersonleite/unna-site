@@ -52,6 +52,10 @@ footer {
     font-size:16px;
 }
 
+#text-developed{
+    font-style: italic;
+}
+
 #version{
     width:100%;
 }

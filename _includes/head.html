@@ -11,8 +11,10 @@
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">
     {% endif %}
-    {% if page.keywords %}
+    {% if page.author %}
     <meta name="author" content="{{ page.author | join: ', ' | escape }}">
+    {% else %}
+    <meta name="author" content="{{ site.author }}">
     {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
