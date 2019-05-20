@@ -1,7 +1,12 @@
   - version: 1.1.0
     date: 2019-05-17
+    description: "Inserção do Google analytics. Atualização de escopo de serviços."
+    lastest: true   
+  
+  - version: 1.1.0
+    date: 2019-05-17
     description: "Criação de espaço para atualizações. Criação de controle de versões. Atualização de conteúdo."
-    lastest: true  
+    lastest: false
   
   - version: 1.0.0
     date: 2019-05-08
