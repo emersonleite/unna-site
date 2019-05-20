@@ -5,7 +5,7 @@
   
   - version: 1.1.0
     date: 2019-05-17
-    description: "Criação de espaço para atualizações. Criação de controle de versões. Atualização de conteúdo."
+    description: "Implementação de sitemap para o site. Criação de espaço para atualizações. Adição de 'keywords' e 'descrição' que melhor representa o site. Criação de controle de versões. Atualização de conteúdo."
     lastest: false
   
   - version: 1.0.0

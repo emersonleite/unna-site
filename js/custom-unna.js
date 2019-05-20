@@ -19,5 +19,3 @@ if (weekday == 4 && hour == 18 ){
     elem.innerHTML = text;
 }
 
-{{ site.data }}
-
