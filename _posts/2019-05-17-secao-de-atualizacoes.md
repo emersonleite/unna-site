@@ -14,6 +14,6 @@ A seção atualizações tem como objetivo apresentar:
 
 <p class="service-description">- Novidades com relação ao mercado da construção civil e engenharia de modo geral;</p>
 <p class="service-description">- Novidades com relação às obras e serviços da Unna Engenharia e Construção;</p>
-<p class="service-description">- Demais assuntos relacionados à engenharia.</p>
+<p class="service-description">- Assusntos relacionados à Engenharia e Tecnologia.</p>
 
 Para apresentação das versões do site, assim como descrição de mudanças em cada versão, pode-se acessar o [link](version_.html).
