@@ -4,8 +4,8 @@ url: 'https://unna.eng.br'
 baseurl: ''
 description: Obras em Curitiba  
 plugins:
-  - jekyll-admin
   - jekyll-sitemap
+  - jekyll-admin
 markdown: kramdown
 permalink: /:title:output_ext
 lang: pt-br
