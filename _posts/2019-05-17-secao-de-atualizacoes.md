@@ -3,11 +3,11 @@ layout: post
 title: Seção de atualizações
 summary: 
 comments: false
-tags: [Jekyll, Automation, Twitter, Facebook, LinkedIn]
+tags: [seção, unna, site, atualizações]
 sharing:
-  twitter: How I Automate Social Media Sharing of my @jekyllrb Blog Articles
-  facebook: How I Automate Social Media Sharing of my Jekyll Blog Articles
-  linkedin: How I Automate Social Media Sharing of my Jekyll Blog Articles
+  twitter: Sobre a seção "Atualizações"
+  facebook: Sobre a seção "Atualizações"
+  linkedin: Sobre a seção "Atualizações"
 ---
 
 A seção atualizações tem como objetivo apresentar:
