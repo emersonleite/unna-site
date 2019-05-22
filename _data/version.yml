@@ -1,7 +1,12 @@
+  - version: 1.4.0
+    date: 2019-05-20
+    description: "Configuração de site para geração de arquivo xml. Distribuição de conteúdo nas redes sociais."
+    lastest: true
+
   - version: 1.3.0
     date: 2019-05-20
     description: "Inserção de formulário de contato da formspree."
-    lastest: true  
+    lastest: false
 
   - version: 1.2.0
     date: 2019-05-20
