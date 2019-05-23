@@ -6,9 +6,11 @@
         </p>
         <h1>{{ post.title }}</h1>
         <article>
-          {{ content }}
+          <p class="service-description">{{ content }}</p>
+          {% if page.source  %}
           <p>Confira em:</p>
-          <p>Fonte: <a href="{{ page.fonte }}">{{ page.fonte }}</a></p>
+          <p>Fonte: <a href="{{ page.source }}">{{ page.source }}</a></p>
+          {% endif  %}
         </article>
       </div>
     </div>

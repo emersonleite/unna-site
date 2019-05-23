@@ -8,7 +8,7 @@ sharing:
   twitter: Curitiba testa tecnologia para ônibus autônomos
   facebook: Curitiba testa tecnologia para ônibus autônomos programa de inovação, Andrade Gutierrez busca soluções inovadoras para engenharia.
   linkedin: Curitiba testa tecnologia para ônibus autônomos
-fonte: https://canaltech.com.br/infra/curitiba-testa-tecnologia-para-onibus-autonomos-139665/
+source: https://canaltech.com.br/infra/curitiba-testa-tecnologia-para-onibus-autonomos-139665/
 ---
 
 O sistema VIA Mobile 360 ADAS, que viabiliza a navegação de ônibus e outros veículos sem motoristas presenciais, começou a ser avaliado no Brasil, mais precisamente na região metropolitana de Curitiba - PR. Desenvolvida pela VIA Technologies, o recurso tem sido testado com êxito na China e a expectativa é que, após as experiências no Brasil, seja, em breve, adotado em grande escala.

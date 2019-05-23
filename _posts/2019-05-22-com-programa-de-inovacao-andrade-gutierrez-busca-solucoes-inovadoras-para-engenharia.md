@@ -8,7 +8,7 @@ sharing:
   twitter: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras para engenharia.
   facebook: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras para engenharia.
   linkedin: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras para engenharia.
-fonte: https://www.startse.com/noticia/conteudo-patrocinado/64713/com-programa-de-inovacao-andrade-gutierrez-busca-solucoes-inovadoras-para-engenharia
+source: https://www.startse.com/noticia/conteudo-patrocinado/64713/com-programa-de-inovacao-andrade-gutierrez-busca-solucoes-inovadoras-para-engenharia
 ---
 
 Companhia lançou o segundo ciclo do Vetor AG, voltado para pesquisadores, universidades e empresas de todo o Brasil
