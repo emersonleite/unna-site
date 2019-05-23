@@ -106,6 +106,14 @@ html {
     margin: auto;
 }
 
+#post{
+    min-height: 600px;
+}
+
+#posts{
+    min-height: 600px;
+}
+
 h1,
 h2,
 h3,
