@@ -10,7 +10,7 @@ collections:
     output: true
 email: unna@unna.eng.br
 url: https://unna.eng.br
-baseurl: ''
+baseurl: 
 description: Obras em Curitiba
 plugins:
 - jekyll-sitemap
