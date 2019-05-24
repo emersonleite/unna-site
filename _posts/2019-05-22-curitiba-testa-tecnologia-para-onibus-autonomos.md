@@ -1,12 +1,17 @@
 ---
-layout: post
 title: Curitiba testa tecnologia para ônibus autônomos
+date: 2019-05-22 00:00:00 Z
+tags:
+- inovação
+- veículos autônomos
+- Curitiba
+layout: post
 summary: 
 comments: true
-tags: [inovação,veículos autônomos,Curitiba]
 sharing:
   twitter: Curitiba testa tecnologia para ônibus autônomos
-  facebook: Curitiba testa tecnologia para ônibus autônomos programa de inovação, Andrade Gutierrez busca soluções inovadoras para engenharia.
+  facebook: Curitiba testa tecnologia para ônibus autônomos programa de inovação,
+    Andrade Gutierrez busca soluções inovadoras para engenharia.
   linkedin: Curitiba testa tecnologia para ônibus autônomos
 source: https://canaltech.com.br/infra/curitiba-testa-tecnologia-para-onibus-autonomos-139665/
 ---

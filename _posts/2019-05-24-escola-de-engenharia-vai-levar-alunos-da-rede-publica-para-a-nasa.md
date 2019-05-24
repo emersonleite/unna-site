@@ -1,9 +1,13 @@
 ---
-layout: post
 title: Escola de engenharia vai levar alunos da rede pública para a Nasa
+date: 2019-05-24 00:00:00 Z
+tags:
+- Nasa
+- rede pública
+- Escola de engenharia
+layout: post
 summary: 
 comments: true
-tags: [Nasa,rede pública, Escola de engenharia]
 sharing:
   twitter: Escola de engenharia vai levar alunos da rede pública para a Nasa
   facebook: Escola de engenharia vai levar alunos da rede pública para a Nasa

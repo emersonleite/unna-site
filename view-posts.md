@@ -1,6 +1,5 @@
 ---
-layout: view-posts
 title: Atualizações
+layout: view-posts
 ---
-
 

@@ -1,40 +1,40 @@
 ---
-layout: default
 title: Unna Engenharia e Construção
+layout: default
 keywords:
-    - Obras em Curitiba
-    - Obras
-    - Construção de casa
-    - Construção de casa por empreitada
-    - Obras em Curitiba por empreitada
-    - obras por empreitada
-    - Empreitada
-    - Terceirização de mão de obra
-    - Terceirização de MO
-    - Empreiteiros em Curitiba
-    - Empreiteiros de obra
-    - Engenharia
-    - Construtora em Curitiba
-    - Reformas em Curitiba
-    - Reformas
-    - Serviços de elétrica
-    - Serviços de hidráulica
-    - Serviços de gesso
-    - Serviços de impermeabilização
-    - Telhados em Curitiba
-description: 
-    - Administração e gerenciamento de obras residenciais e comerciais
-    - Planejamento e execução de sua obra desde a fundação até a entrega final
-    - Contratos de empreitada
-    - Tercerização de mão de obra
-    - Fornecimento de equipes para execução de obras civis
-    - Orçamentos de obra
-    - Gestão de equipes multidisciplinares para a sua obra
-    - Reformas em Curitiba
-    - Execução de serviços de elétrica, hidráulica, pinturas e gesso
+- Obras em Curitiba
+- Obras
+- Construção de casa
+- Construção de casa por empreitada
+- Obras em Curitiba por empreitada
+- obras por empreitada
+- Empreitada
+- Terceirização de mão de obra
+- Terceirização de MO
+- Empreiteiros em Curitiba
+- Empreiteiros de obra
+- Engenharia
+- Construtora em Curitiba
+- Reformas em Curitiba
+- Reformas
+- Serviços de elétrica
+- Serviços de hidráulica
+- Serviços de gesso
+- Serviços de impermeabilização
+- Telhados em Curitiba
+description:
+- Administração e gerenciamento de obras residenciais e comerciais
+- Planejamento e execução de sua obra desde a fundação até a entrega final
+- Contratos de empreitada
+- Tercerização de mão de obra
+- Fornecimento de equipes para execução de obras civis
+- Orçamentos de obra
+- Gestão de equipes multidisciplinares para a sua obra
+- Reformas em Curitiba
+- Execução de serviços de elétrica, hidráulica, pinturas e gesso
 author:
-    - Emerson Leite
-    - Murilo Albunio
+- Emerson Leite
+- Murilo Albunio
 ---
 
 # Serviços

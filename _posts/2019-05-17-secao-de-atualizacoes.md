@@ -1,9 +1,14 @@
 ---
-layout: post
 title: Seção de atualizações
+date: 2019-05-17 00:00:00 Z
+tags:
+- seção
+- unna
+- site
+- atualizações
+layout: post
 summary: 
 comments: false
-tags: [seção, unna, site, atualizações]
 sharing:
   twitter: Sobre a seção "Atualizações"
   facebook: Sobre a seção "Atualizações"

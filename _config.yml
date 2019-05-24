@@ -1,33 +1,37 @@
+---
 title: Unna Engenharia e Construção
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: unna@unna.eng.br
-url: 'https://unna.eng.br'
+url: https://unna.eng.br
 baseurl: ''
-description: Obras em Curitiba  
+description: Obras em Curitiba
 plugins:
-  - jekyll-sitemap
-  - jekyll-admin
+- jekyll-sitemap
+- jekyll-admin
 markdown: kramdown
-permalink: /:title:output_ext
+permalink: "/:title:output_ext"
 lang: pt-br
 author: Emerson Leite
 posts:
-  date_format: '%b %-d, %Y'
-
-
+  date_format: "%b %-d, %Y"
 background:
-  intro-bkg: /img/building-wallpapers-28464-2708651.jpg
+  intro-bkg: "/img/building-wallpapers-28464-2708651.jpg"
 color:
-  primary-dark: '#fff'
-  font-color: '#000'
-  font-btn-color: '#fff'
-  btn-bkg: '#059c00'
-  about-bkg: '#fff'
-  footer-bkg: '#000'
-  download-bkg: '#000'
-font-nav-color: '#059c00'
-font-intro-color: '#000'
+  primary-dark: "#fff"
+  font-color: "#000"
+  font-btn-color: "#fff"
+  btn-bkg: "#059c00"
+  about-bkg: "#fff"
+  footer-bkg: "#000"
+  download-bkg: "#000"
+font-nav-color: "#059c00"
+font-intro-color: "#000"
 fontFamily:
   font-family: Arial
-
-
-

@@ -1,13 +1,21 @@
 ---
+title: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras para
+  engenharia
+date: 2019-05-22 00:00:00 Z
+tags:
+- inovação
+- costrução civil
+- Andrade Gutierrez
 layout: post
-title: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras para engenharia
 summary: 
 comments: true
-tags: [inovação,costrução civil,Andrade Gutierrez]
 sharing:
-  twitter: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras para engenharia.
-  facebook: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras para engenharia.
-  linkedin: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras para engenharia.
+  twitter: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras para
+    engenharia.
+  facebook: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras
+    para engenharia.
+  linkedin: Com programa de inovação, Andrade Gutierrez busca soluções inovadoras
+    para engenharia.
 source: https://www.startse.com/noticia/conteudo-patrocinado/64713/com-programa-de-inovacao-andrade-gutierrez-busca-solucoes-inovadoras-para-engenharia
 ---
 
