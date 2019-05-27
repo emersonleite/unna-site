@@ -1,0 +1,24 @@
+<section id="posts" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">      
+          {% for post in site.posts %}
+            <div>
+              <h2 class="none-text"><a href="{{ post.url | prepend: site.baseurl }}" class="a-color-post">{{ post.title }}</a></h2>
+              <p class="text-date"> Postado em 
+                  {% include post-date.html %}
+              </p>  
+              <p>
+<!--                 {% if post.summary %}
+                  {{ post.summary }}
+                {% else %}
+                  {{ post.excerpt }}
+                {% endif %} -->
+              </p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% include erase.html %}
+</section>

@@ -1,0 +1,17 @@
+<div id="post" class="container pt-3">
+    <div class="row">
+      <div class="col">
+        <p class="text-date">Postado em 
+          {% include page-date.html %}
+        </p>
+        <h1>{{ post.title }}</h1>
+        <article>
+          <p class="service-description">{{ content }}</p>
+          {% if page.source  %}
+          <p>Confira o artigo completo em:</p>
+          <p>Fonte: <a href="{{ page.source }}">{{ page.source }}</a></p>
+          {% endif  %}
+        </article>
+      </div>
+    </div>
+  </div>
