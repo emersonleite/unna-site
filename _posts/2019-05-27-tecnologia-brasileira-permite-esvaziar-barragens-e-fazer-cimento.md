@@ -11,7 +11,7 @@ sharing:
   twitter: Tecnologia brasileira permite esvaziar barragens e fazer cimento
   facebook: Tecnologia brasileira permite esvaziar barragens e fazer cimento
   linkedin: Tecnologia brasileira permite esvaziar barragens e fazer cimento
-source: [link](https://istoe.com.br/tecnologia-brasileira-permite-esvaziar-barragens-e-fazer-cimento/)
+source: https://istoe.com.br/tecnologia-brasileira-permite-esvaziar-barragens-e-fazer-cimento/
 ---
 
 Uma tecnologia desenvolvida na Universidade Federal de Minas Gerais (UFMG) oferece uma alternativa de aproveitamento dos rejeitos de minério armazenados nas barragens que há no Brasil semelhantes às que romperam em Mariana e Brumadinho e ameaçam Barão de Cocais.
