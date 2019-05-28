@@ -9,7 +9,7 @@
     <div id="div-footer" class="container text-center">
         <p class="text-copyright">Copyright &copy; 20{{ site.time | date: '%y' }} - <a href="{{ site.url }}"> {{ site.data.content-set.footer.body-set }} </p></a>
         {% include msgSacre.html %}
-        {% if site.data.show.author %}
+        {% if site.data.show.version %}
         <a id="text-version" href="{{ site.url }}/version_"><p class="text-version"> Versão {{ version }} </p></a>
         {% endif %}
         {% if site.data.show.author %}
