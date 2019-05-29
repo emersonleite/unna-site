@@ -49,7 +49,8 @@ footer {
 }
 
 #text-author{
-    color:#FFF;
+    margin-top: 3px;
+    color: #FFF;
     font-size:16px;
 }
 
@@ -398,31 +399,41 @@ a:focus {
     background-color:  {{ site.color.btn-bkg }}; /*default*/
 }
 
-.facebook{
-    background-color: #4267B2;
+.btn-submit {
+    color: #fff;
+    background-color: #0085FF;
 }
 
-.facebook-messenger{
-    background-color: #4267B2;
+.btn-submit:hover {
+    color: #fff;
+    background-color: rgb(1, 47, 90);
 }
 
-.linkedin{
+.facebook:hover{
+    background-color: #4267B2;
+} 
+
+.facebook-messenger:hover{
+    background-color: #0085FF;
+}
+
+.linkedin:hover{
     background-color: #0077B5;
-}
+} 
 
-.instagram{
+.instagram:hover{
     background-color: #C13584;
-}
+} 
 
-.whatsapp{
+.whatsapp:hover{
     background-color: #25D366;
-}
+} 
 
 .btn-default:hover,
 .btn-default:focus {
     border: 1px solid {{ site.color.links }};
     outline: 0;
-    color: {{ site.color.primary-dark }};
+    color: {{ site.color.color-font-btn-hover }};
     background-color: {{ site.color.links }};
 }
 
