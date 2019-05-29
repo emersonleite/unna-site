@@ -25,9 +25,10 @@ background:
   intro-bkg: "/img/building-wallpapers-28464-2708651.jpg"
 color:
   primary-dark: "#fff"
+  color-font-btn-hover: "#fff"
   font-color: "#000"
   font-btn-color: "#fff"
-  btn-bkg: "#059c00"
+  btn-bkg: "#333"
   about-bkg: "#fff"
   footer-bkg: "#000"
   download-bkg: "#000"
