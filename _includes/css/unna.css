@@ -394,7 +394,7 @@ a:focus {
 }
 
 .btn-default {
-    border: 0px solid {{ site.color.links }};
+    /* border: 0px solid {{ site.color.links }}; */
     color: {{ site.color.font-btn-color }};
     background-color:  {{ site.color.btn-bkg }}; /*default*/
 }
@@ -409,24 +409,69 @@ a:focus {
     background-color: rgb(1, 47, 90);
 }
 
-.facebook:hover{
+.facebook{
     background-color: #4267B2;
+    color:#fff;
+    border:none;
 } 
 
-.facebook-messenger:hover{
+.facebook:hover{
+    background-color: #fff;
+    color:#4267B2;
+    border:none;
+    font-weight: bold;
+} 
+
+.facebook-messenger{
     background-color: #0085FF;
+    color:#fff;
+    border:none;
 }
 
-.linkedin:hover{
+.facebook-messenger:hover{
+    background-color: #fff;
+    color:#0085FF;
+    border:none;
+    font-weight: bold;
+}
+
+.linkedin{
     background-color: #0077B5;
+    color:#FFF;
+    border:none;
+} 
+
+.linkedin:hover{
+    background-color: #fff;
+    color:#0077B5;
+    border:none;
+    font-weight: bold;
+} 
+
+.instagram{
+    background-color: #C13584;
+    color:#fff;
+    border:none;
 } 
 
 .instagram:hover{
-    background-color: #C13584;
+    background-color: #fff;
+    color:#C13584;
+    border:none;
+    font-weight: bold;
+} 
+
+.whatsapp{
+    background-color: #25D366;
+    color:#fff;
+    border:none;
 } 
 
 .whatsapp:hover{
-    background-color: #25D366;
+    background-color: #fff;
+    color: #25D366;
+    border:none;
+    font-weight: bold;
 } 
 
 .btn-default:hover,

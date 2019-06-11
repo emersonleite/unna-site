@@ -6,9 +6,14 @@
                     <h2>{{ site.data.content-set.download.title }}</h2>
                     <p>{{ site.data.content-set.download.body-set }}</p>
                     <ul class="list-inline banner-social-buttons">
-                        {% for network in site.data.team %}
+<!--                         {% for network in site.data.team %}
                         <li>
                         <a href="{{ network.url }}" class="btn btn-default {{ network.title }} btn-lg"><i class="fab fa-{{ network.title }}"></i> <span class="network-name">{{ network.name }}</span></a>
+                        </li>
+                        {% endfor %} -->
+                        {% for network in site.data.team %}
+                        <li>
+                        <a href="{{ network.url }}" class="btn {{ network.title }} btn-lg"><i class="fab fa-{{ network.title }}"></i> <span class="network-name">{{ network.name }}</span></a>
                         </li>
                         {% endfor %}
                     </ul>
