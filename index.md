@@ -22,6 +22,7 @@ keywords:
 - Serviços de gesso
 - Serviços de impermeabilização
 - Telhados em Curitiba
+- Reformas no Paraná
 description:
 - Administração e gerenciamento de obras residenciais e comerciais
 - Planejamento e execução de sua obra desde a fundação até a entrega final
