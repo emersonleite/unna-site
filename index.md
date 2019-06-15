@@ -14,6 +14,7 @@ keywords:
 - Empreiteiros em Curitiba
 - Empreiteiros de obra
 - Engenharia
+- Engenharia civil 
 - Construtora em Curitiba
 - Reformas em Curitiba
 - Reformas
