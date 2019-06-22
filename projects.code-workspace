@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
 	"folders": [
 		{
@@ -12,16 +11,4 @@
 		}
 	],
 	"settings": {}
-=======
-{
-	"folders": [
-		{
-			"path": "C:\\Projects\\unna-site"
-		},
-		{
-			"path": "C:\\Projects\\aprendendoHtmlCssJS"
-		}
-	],
-	"settings": {}
->>>>>>> a9af54d27974c3807816e78b5b7c23c770a6b2c8
 }
