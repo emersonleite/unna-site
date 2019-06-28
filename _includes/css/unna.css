@@ -24,6 +24,10 @@ footer {
     color: white;
 }
 
+#msgS p{
+    font-size: 14px;
+}
+
 .color-above-posts{
     background-color: #059C00;    
     width: 100%;
