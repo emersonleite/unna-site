@@ -13,7 +13,7 @@ var hour = dateAtual.getHours();
 
 console.log(hour);
 
-if (weekday == 6 && hour >= 8 && hour < 18 ){
+if (weekday == 5 && hour >= 0 && hour < 24 ){
     div1.removeChild(elem1);
     div1.removeChild(elem2);
     elem.innerHTML = text;
