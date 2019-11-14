@@ -1,7 +1,13 @@
+
+  - version: 1.4.1
+    date: 2019-11-14
+    description: "Configuração de rolagem lenta para o site."
+    lastest: true
+
   - version: 1.4.0
     date: 2019-05-22
     description: "Configuração de site para geração de arquivo xml. Distribuição de conteúdo nas redes sociais."
-    lastest: true
+    lastest: false
 
   - version: 1.3.0
     date: 2019-05-21
