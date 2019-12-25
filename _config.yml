@@ -12,7 +12,7 @@ email: unna@unna.eng.br
 url: https://unna.eng.br
 baseurl: 
 description: Obras em Curitiba
-plugins:
+plugins_dir:
 - jekyll-sitemap
 - jekyll-admin
 markdown: kramdown
